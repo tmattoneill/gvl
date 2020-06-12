@@ -1,0 +1,528 @@
+: Tappx
+1 plusX AG
+33Across
+6Sense Insights, Inc.
+A Million Ads Ltd
+A.Mob
+AAX LLC
+Accorp Sp. z o.o.
+Active Agent AG
+ad6media
+Adacado
+adality GmbH
+ADARA MEDIA UNLIMITED
+adbility media GmbH
+ADCELL | Firstlead GmbH
+AdClear GmbH
+AdColony, Inc.
+AddApptr GmbH
+AddThis
+AdElement, Inc.
+Adello Group AG
+Adelphic LLC
+Adevinta Spain S.L.U.
+Adform A/S
+Adhese
+adhood.com
+Adikteev
+ADITION technologies AG
+Adkernel LLC
+Adledge
+Adloox SA
+Adludio
+ADMAN – Phalstos Networks, S.A.
+ADman Interactive SL
+adMarketplace, Inc.
+AdMaxim Inc.
+Admedo Ltd
+admetrics GmbH
+Admixer EU GmbH
+Adobe Advertising Cloud
+Adobe Audience Manager
+Adprime Media Inc.
+AdRoll Inc.
+adrule GmbH
+Adserve.zone / Artworx AS
+Adsolutions BV
+AdSpirit GmbH
+adsquare GmbH
+Adssets AB
+AdsWizz Inc.
+Adtelligent Inc
+AdTheorent, Inc
+AdTiming Technology Company Limited
+ADUX
+advanced store GmbH
+ADventori SAS
+Adverline
+ADWAYS SAS
+Adxperience SAS
+ADYOULIKE SA
+Adzymic Pte Ltd
+Affectv Ltd
+Affle International
+agof e. V.
+Alive & Kicking Global Limited
+Alliance Gravity Data Media
+Amobee, Inc.
+AntVoice
+Anzu Virtual reality LTD
+Apester Ltd
+AppConsent Xchange
+Appier PTE Ltd
+Arkeero
+ARMIS SAS
+Arrivalist Co.
+ATG Ad Tech Group GmbH
+Audience Network
+Audience Trading Platform Ltd.
+AudienceProject Aps
+Audiencerate LTD
+AuDigent
+audio content & control GmbH
+AUDIOMOB LTD
+Avazu Inc.
+Avid Media Ltd
+Avocet Systems Limited
+Axel Springer Teaser Ad GmbH
+Axonix Ltd
+Azerion Holding B.V.
+Bandsintown Amplified LLC
+Bannerflow AB
+BeachFront Media LLC
+Beaconspark Ltd
+Beemray Oy
+BeeswaxIO Corporation
+BEINTOO SPA
+BeOp
+Better Banners A/S
+Between Exchange
+BidBerry SRL
+BidMachine Inc.
+Bidmanagement GmbH
+bidstack Ltd
+BIDSWITCH GmbH
+BidTheatre AB
+Bigabid Media Ltd
+BILENDI SA
+Bit Q Holdings Limited
+BLIINK SAS
+Blingby LLC
+Blis Media Limited
+Blue
+Blue Billywig BV
+Bmind a Sales Maker Company, S.L.
+Bombora Inc.
+Bounce Exchange, Inc.
+Brand Advance Limited
+Brand Metrics Sweden AB
+Browsi Mobile Ltd
+Bucksense Inc
+BusinessClick
+Capitaldata
+Captify Technologies Limited
+Cavai AS & UK
+Cedato Technologies LTD.
+Celtra, Inc.
+Centro, Inc.
+ChannelSight
+Chargeads
+CHEQ AI TECHNOLOGIES LTD.
+Cint AB
+Clicksco Digital Limited
+Clinch Labs LTD
+Clipcentric, Inc.
+Cloud Technologies S.A.
+Codewise Sp. z o.o. Sp. k
+Collective Europe Ltd.
+Colpirio.com
+Comcast International France SAS
+Commanders Act
+comScore, Inc.
+Connatix Native Exchange Inc.
+ConnectAd Realtime GmbH
+Consumable, Inc.
+Contact Impact GmbH
+Converge-Digital
+Conversant Europe Ltd.
+Cookie Market LTD
+Crimtan Holdings Limited
+Criteo SA
+Cxense
+Cydersoft
+Czech Publisher Exchange z.s.p.o.
+D-Edge
+Dailymotion SA
+Dataseat Ltd
+Dataxu, Inc.
+DeepIntent, Inc.
+DEFINE MEDIA GMBH
+Delta Projects AB
+DemandBase
+Dentsu Aegis Network Italia SpA
+Deutsche Post AG
+Digilant Spain, SLU
+Digital Control GmbH
+Digital East GmbH
+digitalAudience
+DIGITEKA Technologies
+Digitize New Media Ltd
+DigiTrust / IAB Tech Lab
+district m inc.
+DistroScale, Inc.
+DoubleVerify Inc.
+Dr. Banner
+Dugout Limited
+dunnhumby Germany GmbH
+Duration Media, LLC.
+DynAdmic
+EasyAd- Duplo Media AS
+EASYmedia GmbH
+Effiliation
+Effinity
+Emerse
+emetriq GmbH
+EMX Digital LLC
+Ericsson Emodo
+Etarget SE
+Eulerian Technologies
+Exactag GmbH
+Exponential Interactive, Inc.
+Eyeota Ptd Ltd
+Ezoic Inc.
+Fifty Technology Limited
+Fiksu DSP (GDMServices, Inc.)
+Flashtalking, Inc.
+FM Labs LLC
+Forensiq LLC
+Fyber
+Gamned
+Gamoshi LTD
+GeistM Technologies LTD
+Gemius SA
+Genius Sports Media Limited
+Getintent USA, Inc.
+GlobalWebIndex
+Go.pl sp. z o.o.
+Goldbach Group AG
+Golden Bees
+Good-Loop Ltd
+Goodway Group, Inc.
+GP One GmbH
+GRAPHINIUM
+GroundTruth
+GroupM
+GumGum, Inc.
+Haensel AMS GmbH
+Happydemics
+hbfsTech
+HIRO Media Ltd
+Hivestack Inc.
+Hottraffic BV (DMA Institute)
+Hybrid Adtech GmbH
+HyperTV Inc.
+ID5 Technology SAS
+IgnitionAi Ltd
+IgnitionOne
+Impactify
+Improve Digital International BV
+Index Exchange, Inc.
+INFINIA MOBILE S.L.
+INFOnline GmbH
+InMobi Pte Ltd
+INNITY
+Innovid Inc.
+Inskin Media LTD
+Inspired Mobile Limited
+Instinctive, Inc.
+Instreamatic inc.
+InsurAds Technologies SA.
+Integral Ad Science, Inc.
+Intent Media, Inc.
+Intercept Interactive Inc. dba Undertone
+Internet BillBoard a.s.
+INVIBES GROUP
+INVIDI technologies AB
+iotec global Ltd.
+IPONWEB GmbH
+iPromote
+Jaduda GmbH
+Jampp LTD
+Jivox Corp
+Jointag
+Jointag S.r.l.
+Justpremium BV
+Justtag Sp. z o.o.
+Kairion GmbH
+Kairos Fire
+Kayzen
+Keymantics
+Kiosked Ltd
+Knorex
+Kochava Inc.
+KUPONA GmbH
+Kwanko
+LeftsnRight, Inc. – LIQWID
+Lifesight
+Lifesight Pte. Ltd.
+Liftoff Mobile, Inc.
+Ligatus GmbH
+Linicom
+LiquidM Technology GmbH
+Little Big Data sp.z.o.o.
+Liveintent Inc.
+LiveRamp, Inc.
+Localsensor B.V.
+Location Sciences AI Ltd
+LoopMe Ltd
+Lotame Solutions, Inc.
+Lucid Holdings, LLC
+M32 Media Inc
+Madington
+Madison Logic, Inc.
+MADVERTISE MEDIA
+mainADV Srl
+MAIRDUMONT NETLETIX GmbH&Co. KG
+Market Resource Partners LLC
+Maximus Live LLC
+McCann Discipline LTD
+Media.net Advertising FZ-LLC
+Mediaforce LTD
+MediaMath, Inc.
+mediarithmics SAS
+Mediasmart Mobile S.L.
+Meetrics GmbH
+MGID Inc.
+MindTake Research GmbH
+MiQ
+Mirando GmbH & amp; Co KG
+MISSENA
+mobalo GmbH
+Mobfox US LLC
+Mobilewalla, Inc.
+Mobsuccess
+Mobusi Mobile Advertising S.L.
+Monet Engine Inc
+MOVIads Sp. z o.o. Sp. k.
+My6sense Inc.
+Myntelligence Limited
+MyTraffic
+N Technologies Inc.
+Nano Interactive GmbH
+Nativo, Inc.
+NC Audience Exchange, LLC (NewsIQ)
+Near Pte Ltd
+Neodata Group srl
+NEORY GmbH
+Netsprint SA
+NetSuccess, s.r.o.
+netzeffekt GmbH
+NEURAL.ONE
+Neustar on behalf of The Procter & Gamble Company
+Neustar, Inc.
+News and Media Holding, a.s.
+NEXD
+Nielsen Marketing Cloud
+Norstat Danmark A/S
+Noster Finance S.L.
+Notify
+numberly
+Oath (EMEA) Limited
+Ogury Ltd.
+On Device Research Limited
+OnAudience Ltd
+OneTag Ltd
+Onfocus (Adagio)
+Online Advertising Network Sp. z o.o.
+Online Solution Int Limited
+Onnetwork Sp. z o.o.
+OpenX
+Optomaton UG
+Oracle Data Cloud
+Orion Semantics
+ORTEC B.V.
+Otto (GmbH & Co KG)
+Outbrain UK Ltd
+PaperG, Inc. dba Thunder Industries
+Passendo ApS
+Performax.cz, s.r.o.
+Permodo GmbH
+Permutive
+Pexi B.V.
+pilotx.tv
+Pinpoll GmbH (Private Limited)
+Piximedia SAS
+Platform161
+Playbuzz Ltd.
+PLAYGROUND XYZ
+Plista GmbH
+Pocketmath Pte Ltd
+Polar
+PowerLinks Media Limited
+Predicio
+Prex
+Programatica de publicidad S.L.
+Proxi.cloud Sp. z o.o.
+PROXISTORE
+Pubfinity LLC
+Publicis Media GmbH
+Pubmatic, Inc.
+PulsePoint, Inc.
+Qriously
+Quantcast International Limited
+Radio Net Media Limited
+Rakuten Marketing LLC
+Readpeak Oy
+Realeyes OÜ
+ReigNN Platform Ltd.
+Relay42 Netherlands B.V.
+remerge GmbH
+Research and Analysis of Media in Sweden AB
+Revcontent LLC
+Reveal Mobile, Inc
+RevJet
+Rezonence Limited
+RhythmOne, LLC
+Rich Audience
+RMSi Radio Marketing Service interactive GmbH
+Rockerbox, Inc
+Roq.ad GmbH
+RTB House S.A.
+RTK.IO, Inc
+S4M
+salesforce.com, inc.
+Samba / Free Stream Media Corp
+Samba TV UK Limited
+ScaleMonk Inc.
+Scene Stealer Limited
+Scoota
+Seeding Alliance GmbH
+Seedtag Advertising S.L.
+Seenthis AB
+Semasio GmbH
+Seznam.cz, a.s.
+ShareThis, Inc.
+Sharethrough, Inc.
+Shopalyst Inc
+ShowHeroes GmbH
+Sift Media, Inc.
+Signal Digital Inc.
+Signals
+Simpli.fi Holdings Inc.
+SINGLESPOT SAS
+Sirdata
+SITU8ED SA
+Sizmek Technologies, Inc.
+SK Media Group, LLC
+Skaze
+Skimlinks
+Smaato, Inc.
+Smadex SL
+Smart
+Smart Traffik
+Smartclip Hispania SL
+smartclip Holding AG
+Smartme Analytics
+Smartology Limited
+SMARTSTREAM.TV Gmbh
+SmartyAds Inc.
+Smile Wanted Group
+Snapupp Technologies SL
+Sojern, Inc.
+Solocal
+Somo Audience Corp
+Sonobi, Inc
+Sortable
+Soundcast
+Sourcepoint Technologies, Inc.
+Sovrn Holdings Inc
+Spolecznosci Sp. z o.o. Sp. k.
+Sportradar AG
+Spot.IM LTD
+Spotad
+SpotX
+SpringServe, LLC
+StackAdapt
+Steel House, Inc.
+Ströer SMP GmbH
+Sub2 Technologies Ltd
+Sublime
+SunMedia
+Survata Inc.
+TabMo SAS
+Taboola Europe Limited
+TACTIC™ Real-Time Marketing
+Tapad, Inc.
+TAPTAP Networks SL
+targeting360 GmbH
+TARGETSPOT BELGIUM SPRL
+Teads
+Tealium Inc.
+Teemo SA
+Telaria SAS
+Telaria, Inc
+Telecoming S.A.
+Telefonica Investigación y Desarrollo S.A.U
+Temelio
+Teroa S.A.
+The ADEX GmbH
+The Kantar Group Limited
+The MediaGrid Inc.
+THE NEWCO S.R.L.
+The Reach Group GmbH
+The Rubicon Project, Inc.
+The Trade Desk, Inc
+Think Clever Media
+Timehop, Inc.
+Totaljobs Group Ltd
+Tradelab SAS
+travel audience GmbH
+TreSensa, Inc.
+Triapodi Ltd.
+Triboo Data Analytics
+TripleLift, Inc.
+Triton Digital Canada Inc.
+TrueData Solutions, Inc.
+TTNET AS
+twiago GmbH
+UberMedia, Inc.
+ucfunnel Co., Ltd.
+Underdog Media LLC
+Unruly Group Ltd
+usemax advertising (Emego GmbH)
+Ve Global
+VECTAURY
+Venatus Media Limited
+VEXPRO TECHNOLOGIES LTD
+Vibrant Media Limited
+Vidazoo Ltd
+video intelligence AG
+Vidoomy Media SL
+ViewPay
+Viralize SRL
+Visarity Technologies GmbH
+VRTCAL Markets, Inc.
+WebAds B.V
+Webedia
+WebMediaRM
+WEBORAMA
+Welect GmbH
+WhatRocks Inc.
+White Ops, Inc.
+Widespace AB
+Wizaly
+X-Mode Social, Inc.
+Xandr, Inc.
+Yieldlab AB
+Yieldlove GmbH
+Yieldmo, Inc.
+Yieldr UK Limited
+YOC AG
+Yormedia Solutions Ltd
+YouGov
+ZBO Media
+Zemanta, Inc.
+zeotap GmbH
+ZergNet
+Zeta Global
+ZighZag
