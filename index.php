@@ -2,7 +2,9 @@
 session_start();
 require("./gvl.php");
 
-$gvl = new GVL("https://vendorlist.consensu.org/v2/vendor-list.json");
+$ver = isset($_GET['version']) ? $_GET['version'] : "v2";
+
+$gvl = new GVL($ver);
 
 if (isset($_GET['vendor'])) {
    $show_info = true;
@@ -83,6 +85,13 @@ function get_tmt_gid($id) {
     <!-- Query / Search Form -->
     <form name="company" method="get" action="index.php">
         <div class="auto_submit">
+            <!-- Radio buttons for GVL version selection -->
+            <label for="v1">Version 1</label>
+            <input type="radio" id="v1" name="version" value="v1">
+            <label for="v2">Version 2</label>
+            <input type="radio" id="v2" name="version" checked='checked' value="v2"><br>
+
+            <!-- Vendor Selection Dropdown -->
             <label for="vendor">Company Name</label>
             <select id="vendor" name="vendor">
                 <option value="" disabled selected>Select Vendor</option>
@@ -132,6 +141,13 @@ function get_tmt_gid($id) {
         integrity="sha384-1CmrxMRARb6aLqgBO7yyAxTOQE2AKb9GfXnEo760AUcUmFx3ibVJJAzGytlQcNXd"
         crossorigin="anonymous"></script>
 <script>
+    let url_params = new URLSearchParams(window.location.search);
+
+    // set values in search form if set from query
+    if (url_params.has('vendor')) {
+        $('#vendor option[value=' + url_params.get('vendor') + ']').attr('selected', 'selected');
+        $('#' +  url_params.get('version')).attr('checked', 'checked');
+    }
     // auto-update on change from the dropdown
     $(function() {
         $(".auto_submit").change(function() {

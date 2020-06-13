@@ -2,15 +2,24 @@
 
 class GVL
 {
-	public $path_to_json= "https://vendorlist.consensu.org/v2/vendor-list.json";
-    // using: "https://vendorlist.consensu.org/v2/vendor-list.json"
+    public $path_to_json;
+
+    private $v1 = "https://vendorlist.consensu.org/vendorlist.json";
+    private $v2 = "https://vendorlist.consensu.org/v2/vendor-list.json";
 	private $gvl;
 	private $gvl_data;
 	private $purpose_list;
 
-	function __construct($path_to_json) {
-		$this->path_to_json = $path_to_json;
-		$this->gvl = @file_get_contents($path_to_json);
+	function __construct($version) {
+	    if ($version == "v1") {
+            $this->path_to_json = $this->v1;
+        } elseif ($version == "v2") {
+	        $this->path_to_json = $this->v2;
+        } else {
+            $this->path_to_json = $this->v2;
+        }
+
+		$this->gvl = @file_get_contents($this->path_to_json);
         if ($this->gvl === FALSE) {
             echo 'There was a problem loading the JSON file: ', "\n";
             die;
@@ -23,6 +32,10 @@ class GVL
                                     "specialFeatures"=>"specialFeatures");
 		$this->gvl_data = json_decode($this->gvl);
 	}
+
+	public function set_gvl_version($version) {
+	    $this->path_to_json = $version == "v1" ? $this->v1 : $this->v2;
+    }
 
 	public function get_gvlSpecificVersion() {
 		return $this->gvl_data->gvlSpecificationVersion;
