@@ -1,8 +1,18 @@
 import csv, json
+from   datetime import datetime as dt 
+import time
+import os
 
-file      = "gid_domain_list.csv"
-json_fh   = "gid_domains.json"
-json_data = {}
+file            = "../data/gid_domain_list.csv"
+json_fh         = "../data/gid_domains.json"
+json_data       = {}
+csv_create_time = os.path.getmtime(file)
+td_format       = "%Y-%m-%d %H:%M:%SZ"
+
+json_data["dataSource"]     = file
+json_data["jsonUpdateTime"] = dt.strftime(dt.now(),td_format)
+json_data["csvCreateTime"]  = time.strftime(td_format, time.localtime(csv_create_time))
+json_data["data"]           = {}
 
 with open(file, encoding='utf-8-sig', newline='\n') as csv_file:
     csvReader = csv.DictReader(csv_file)
@@ -11,12 +21,12 @@ with open(file, encoding='utf-8-sig', newline='\n') as csv_file:
         
         if rows['gid'].strip() is not None and rows['gid'] != '':
             gid = rows['gid']
-            json_data[gid] = { 
+            json_data['data'][gid] = { 
                         "company_name": rows['company_name'],
                         "domains": [rows['domain']]
             }
         else:
-            json_data[gid]["domains"].append(rows['domain'])
+            json_data['data'][gid]["domains"].append(rows['domain'])
 
 
 with open(json_fh, 'w') as json_file:
