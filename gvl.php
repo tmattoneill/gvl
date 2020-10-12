@@ -2,10 +2,24 @@
 
 class GVL
 {
+    /* {
+            gvlSpecificationVersion: 2,
+            vendorListVersion: 59,
+            tcfPolicyVersion: 2,
+            lastUpdated: "2020-10-08T16:05:25Z",
+            purposes: {},
+            specialPurposes: {},
+            features: {},
+            specialFeatures: {},
+            stacks: {},
+            vendors: {}
+        }
+     */
+
     private $gvl_json = "https://vendorlist.consensu.org/v2/vendor-list.json";
 	private $gvl;
 	private $gvl_data;
-	private $purpose_list;
+	private $vendors, $purposes;
 
 	function __construct() {
 
@@ -14,17 +28,9 @@ class GVL
         if ($this->gvl === FALSE) {
             echo 'There was a problem loading the JSON file: ', $this->gvl_json, "\n";
             die;
+        } else {
+            $this->gvl_data = json_decode($this->gvl, true);
         }
-
-        $this->gvl_data = json_decode($this->gvl, true);
-
-		$this->purpose_list = array("purposes"=>"purposes",
-			                        "legIntPurposes"=>"purposes",
-			                        "flexiblePurposes"=>"purposes",
-			                        "specialPurposes"=>"specialPurposes",
-                                    "features"=>"features",
-                                    "specialFeatures"=>"specialFeatures");
-
 	}
 
 	public function get_gvl_json() {
@@ -60,6 +66,9 @@ class GVL
 	}
 
 	public function get_options($collection) {
+	    // Takes as input the name (string) of a collection in json
+        // and returns a string of the <option> values for a select dropdown
+        // sorted in alphbetical order.
         $dataset = $this->gvl_data[$collection];
 	    $option_string = "";
         $values = array();
