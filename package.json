@@ -1,0 +1,16 @@
+{
+  "name": "gvl",
+  "version": "1.0.0",
+  "description": "IAB Global Vendor List Information",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^8.1.0",
+    "tailwind": "^4.0.0"
+  }
+}

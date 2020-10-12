@@ -4,7 +4,7 @@ require("./gvl.php");
 
 $ver = isset($_GET['version']) ? $_GET['version'] : "v2";
 
-$gvl = new GVL($ver);
+$gvl = new GVL();
 
 if (isset($_GET['vendor'])) {
    $show_info = true;
@@ -14,7 +14,7 @@ if (isset($_GET['vendor'])) {
 
 // Helpers
 function element_list($collection) {
-    global $company;
+    global $company; // set on page load based on query params
     global $gvl;
     $collection_string = "";
 
@@ -22,11 +22,11 @@ function element_list($collection) {
         return false;
     }
 
-    $elements = $company->$collection;
+    $elements = $company[$collection];
 
     foreach ($elements as $elem_idx) {
         $element = $gvl->get_record($collection, $elem_idx);
-        $collection_string .= "<strong>$elem_idx: </strong>$element->name: $element->description<br>";
+        $collection_string .= "<strong>$elem_idx: </strong>" . $element['name'] . ":" . $element['description'] . "<br>";
     }
 
     return $collection_string;
@@ -79,18 +79,12 @@ function get_tmt_gid($id) {
         Vendor List Version : <?= $gvl->get_vendorListVersion(); ?><br>
         TCF Policy Version  : <?= $gvl->get_tcfPolicyVersion(); ?><br>
         Last Updated        : <?= $gvl->get_lastUpdated(); ?><br>
-        Source file         : <?= $gvl->path_to_json ?>
+        Source file         : <?= $gvl->get_gvl_json() ?>
     </pre>
 
     <!-- Query / Search Form -->
     <form name="company" method="get" action="index.php">
         <div class="auto_submit">
-            <!-- Radio buttons for GVL version selection -->
-            <label for="v1">Version 1</label>
-            <input type="radio" id="v1" name="version" value="v1">
-            <label for="v2">Version 2</label>
-            <input type="radio" id="v2" name="version" checked='checked' value="v2"><br>
-
             <!-- Vendor Selection Dropdown -->
             <label for="vendor">Company Name</label>
             <select id="vendor" name="vendor">
@@ -103,15 +97,15 @@ function get_tmt_gid($id) {
     <?php if (isset($company)): ?>
         <div id="company-info">
             <hr>
-            <img alt="logo" style="float:right" src="//logo.clearbit.com/<?= parse_url($company->policyUrl)['host'] ?>?size=120">
-            <h2><?= $company->name ?> (ID: <?= $company->id ?>)</h2>
-            <?php if (get_tmt_gid($company->id) != 'null'): ?>
+            <img alt="logo" style="float:right" src="//logo.clearbit.com/<?= parse_url($company['policyUrl'])['host'] ?>?size=120">
+            <h2><?= $company['name'] ?> (ID: <?= $company['id'] ?>)</h2>
+            <?php if (get_tmt_gid($company['id']) != 'null'): ?>
                 <p>
-                    TMT GID: <?= get_tmt_gid($company->id) ?>
+                    TMT GID: <?= get_tmt_gid($company['id']) ?>
                     <img style="display: inline-block; width:20px" src="img/tmt-shield.png" alt="TMT">
                 </p>
             <?php endif; ?>
-            <p>Link to Privacy Policy: <a href="<?= $company->policyUrl ?>"><?= $company->policyUrl ?></a></p>
+            <p>Link to Privacy Policy: <a href="<?= $company['policyUrl'] ?>"><?= $company['policyUrl'] ?></a></p>
             <!-- Purposes -->
             <?php if ($elems = element_list("purposes")): ?>
                 <h3>Legal Purposes</h3>
