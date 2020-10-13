@@ -1,16 +1,27 @@
 {
   "name": "gvl",
   "version": "1.0.0",
-  "description": "IAB Global Vendor List Information",
-  "main": "tailwind.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "",
+  "main": "index.js",
   "dependencies": {
     "autoprefixer": "^9.8.6",
+    "postcss": "^8.1.1",
     "postcss-cli": "^8.1.0",
-    "tailwind": "^4.0.0"
-  }
+    "tailwindcss": "^1.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "postcss css/tailwind.css -o css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmattoneill/gvl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmattoneill/gvl/issues"
+  },
+  "homepage": "https://github.com/tmattoneill/gvl#readme"
 }
