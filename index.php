@@ -2,8 +2,6 @@
 session_start();
 require("./gvl.php");
 
-$ver = isset($_GET['version']) ? $_GET['version'] : "v2";
-
 $gvl = new GVL();
 
 if (isset($_GET['vendor'])) {

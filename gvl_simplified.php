@@ -46,6 +46,16 @@
 
         return $return_string;
     }
+
+    function single_array($dataset, $field_to_flatten){
+        $the_array = [];
+
+        foreach($dataset as $item) {
+            array_push($the_array, ["value" => $item["id"], "label" => $item[$field_to_flatten]]);
+        }
+
+        return json_encode($the_array);
+    }
 ?>
 
 <!DOCTYPE html>
@@ -53,9 +63,39 @@
 <head>
     <title>GVL Lookup</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="bower_components/jquery-ui/themes/humanity/jquery-ui.css">
 </head>
 <body class="bg-gray-200 p-5">
-    <h2 class="text-2xl">Select a Vendor</h2>
-    <div name="selector"><?= build_select($vendors, "id", "name") ?></div>
+    <h2 class="font-bold text-2xl">Select a Vendor</h2>
+    <div id="selector"><?= build_select($vendors, "id", "name") ?></div>
+    <div class="ui-widget">
+        <label for="vendor">Vendor Search: </label>
+        <input id="vendor">
+        <input type="hidden" id="vendor_id" value="">
+    </div>
+
+    <! -- Scripts & jQuery -->
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script>
+        $( function() {
+            $( "#vendor" ).autocomplete({
+                source: <?= single_array($vendors, "name") ?>,
+                minLength: 3,
+                select: function (event, ui) {
+                    event.preventDefault();
+                    $('#vendor_id').val(ui.item.value);
+                    $('#vendor').val(ui.item.label);
+                }
+            });
+        } );
+
+        $(function() {
+            $("#vendor").change( function() {
+                this.val("123")
+            });
+        })
+    </script>
 </body>
 </html>
